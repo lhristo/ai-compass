@@ -1,4 +1,4 @@
-# AI Compass
+# AI Hristov
 
 A task-oriented directory of 40 AI products across eight categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
 
