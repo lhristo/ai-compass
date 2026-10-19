@@ -10,7 +10,7 @@ From this directory:
 python3 -m http.server 4200 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:4200. Serve over HTTP; opening index.html as a file cannot load the JSON catalog reliably. This local address only works on the Mac running the server. For public hosting, upload index.html, style.css, app.js, favicon.svg and catalog.json to a static host (including GitHub Pages).
+Open http://127.0.0.1:4200. Serve over HTTP; opening index.html as a file cannot load the JSON catalog reliably. This local address only works on the Mac running the server. For public hosting, upload index.html, style.css, app.js, search.js, favicon.svg and catalog.json to a static host (including GitHub Pages).
 
 ## Features
 
@@ -21,7 +21,7 @@ Open http://127.0.0.1:4200. Serve over HTTP; opening index.html as a file cannot
 - Practical use cases, considerations and official links
 - Responsive layout, keyboard-operable dialogs, loading-error recovery
 
-Search is keyword matching, not an AI model or exhaustive recommendation system. No affiliate links. Tool plans, regional availability and licensing are deliberately not presented as fixed facts. Recheck provider terms before use.
+Search uses local English/Bulgarian task rules and weighted keywords, not an AI model or exhaustive recommendation system. Full sentences are accepted, but negations, prices and arbitrary constraints are not reliably interpreted. Matching cards explain their relevance. Run `node tests/search.cjs` to check natural-language ranking cases. No affiliate links. Tool plans, regional availability and licensing are deliberately not presented as fixed facts. Recheck provider terms before use.
 
 ## Maintain
 
