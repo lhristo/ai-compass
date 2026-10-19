@@ -55,6 +55,13 @@
       "subtitle": "Get the busywork done",
       "icon": "▦",
       "keywords": "meeting notes automate automation presentation slides workflow organize productivity spreadsheet среща презентация автоматизация"
+    },
+    {
+      "id": "agents",
+      "name": "Agents & automation",
+      "subtitle": "Delegate multi-step work",
+      "icon": "⚙",
+      "keywords": "agent agents automate automation workflow delegate research support chatbot business агент автоматизация"
     }
   ],
   "tools": [
@@ -497,6 +504,138 @@
       "consider": "Review connected-account permissions and automation usage limits.",
       "keywords": "automate automation workflow apps business",
       "reviewed": "2026-10-18"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "category": "agents",
+      "url": "https://www.manus.im/",
+      "description": "A general-purpose agent for research and multi-step digital tasks.",
+      "bestFor": "Delegate a research brief or a task with several deliverables.",
+      "consider": "Review sources and outputs before relying on a completed task.",
+      "keywords": "agent research report browser delegate",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "category": "agents",
+      "url": "https://www.genspark.ai/business",
+      "description": "An AI workspace combining research, content creation and task execution.",
+      "bestFor": "Develop a research-backed document or presentation in one workspace.",
+      "consider": "Available tools and usage allowances vary by plan.",
+      "keywords": "agent research presentation slides documents",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "lindy",
+      "name": "Lindy",
+      "category": "agents",
+      "url": "https://www.lindy.ai/",
+      "description": "An AI teammate that works with connected business tools and recurring tasks.",
+      "bestFor": "Prepare reports and handle routine work across your apps.",
+      "consider": "Review account permissions and approvals for external actions.",
+      "keywords": "agent email inbox reports scheduling business",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "relevance-ai",
+      "name": "Relevance AI",
+      "category": "agents",
+      "url": "https://relevanceai.com/",
+      "description": "A platform for configuring specialist AI agents and connected workflows.",
+      "bestFor": "Build an agent for a repeatable sales or operations task.",
+      "consider": "Test instructions and connected tools before unattended use.",
+      "keywords": "agent sales operations workflow builder",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "gumloop",
+      "name": "Gumloop",
+      "category": "agents",
+      "url": "https://www.gumloop.com/",
+      "description": "Build AI agents and workflows that connect business applications.",
+      "bestFor": "Combine information gathering and processing in a reusable workflow.",
+      "consider": "Check integration permissions and per-run usage costs.",
+      "keywords": "agent automation workflow data business",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "category": "agents",
+      "url": "https://n8n.io/",
+      "description": "A workflow automation platform with AI-agent and app-integration capabilities.",
+      "bestFor": "Connect APIs and business tools into a custom AI workflow.",
+      "consider": "Self-hosting requires maintenance; cloud and model costs may apply.",
+      "keywords": "agent automation workflow api self hosted technical",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "make-ai-agents",
+      "name": "Make AI Agents",
+      "category": "agents",
+      "url": "https://www.make.com/ai-agents",
+      "description": "Create agents within Make workflows to coordinate tasks across connected apps.",
+      "bestFor": "Add adaptive decisions to a visual business automation.",
+      "consider": "Test scenarios and limit the actions an agent can perform.",
+      "keywords": "agent automation visual workflow integrations",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "dust",
+      "name": "Dust",
+      "category": "agents",
+      "url": "https://dust.tt/",
+      "description": "Build workplace AI agents connected to team knowledge and tools.",
+      "bestFor": "Give a team an assistant grounded in its internal information.",
+      "consider": "Configure data access carefully and verify generated answers.",
+      "keywords": "agent knowledge team documents internal search",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "category": "agents",
+      "url": "https://www.taskade.com/",
+      "description": "A workspace for AI agents, apps and automated project workflows.",
+      "bestFor": "Organize a project and automate repeatable team tasks.",
+      "consider": "Review workspace sharing and automation settings.",
+      "keywords": "agent project tasks team workflow planning",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "stackai",
+      "name": "StackAI",
+      "category": "agents",
+      "url": "https://www.stackai.com/",
+      "description": "An enterprise platform for building AI agents and document workflows.",
+      "bestFor": "Create an internal document-processing or knowledge assistant.",
+      "consider": "Confirm deployment options and data-handling requirements.",
+      "keywords": "agent enterprise documents knowledge workflow builder",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "voiceflow",
+      "name": "Voiceflow",
+      "category": "agents",
+      "url": "https://www.voiceflow.com/",
+      "description": "A platform for designing and deploying conversational chat and voice agents.",
+      "bestFor": "Build a customer-facing assistant with guided conversations.",
+      "consider": "Plan escalation to a person and review connected data access.",
+      "keywords": "agent chatbot voice customer support conversation",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "botpress",
+      "name": "Botpress",
+      "category": "agents",
+      "url": "https://botpress.com/",
+      "description": "Build AI customer-support agents using knowledge sources and integrations.",
+      "bestFor": "Create a support assistant that answers from your documentation.",
+      "consider": "Test answer quality and provide a human handoff for difficult cases.",
+      "keywords": "agent chatbot customer support knowledge helpdesk",
+      "reviewed": "2026-10-19"
     }
   ]
 }
