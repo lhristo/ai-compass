@@ -1,6 +1,6 @@
 # AI Hristov
 
-A task-oriented directory of 52 AI products across nine categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
+A task-oriented directory of 62 AI products across nine categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
 
 ## Run
 
@@ -38,6 +38,10 @@ With the local server running and Playwright installed:
 PLAYWRIGHT_PATH=/path/to/node_modules/playwright node tests/browser.cjs
 ```
 
-Checks all 52 destinations for unique HTTPS URLs (not external authentication flows), nine categories, task search, saved persistence, compare limits, keyboard dialogs, mobile overflow and fetch failure/retry. Automated URL checks do not certify every provider's availability or product claims.
+Checks all 62 destinations for unique HTTPS URLs (not external authentication flows), nine categories, task search, saved persistence, compare limits, keyboard dialogs, mobile overflow and fetch failure/retry. Automated URL checks do not certify every provider's availability or product claims.
 
 Added 12 agent products/platforms on 2026-10-19, based on their official websites. Agent builders require setup and permissions; inclusion does not imply unattended operation is appropriate.
+
+Added five products on 2026-10-26 (new to this directory, not new-launch claims). See [the weekly source and verification log](updates/2026-10-26.md). Run `node tests/catalog.cjs` for schema, counts, identity and original-entry preservation checks.
+
+Added five more agents on 2026-10-28 and published the previously pending five additions. See [verification log](updates/2026-10-28.md).

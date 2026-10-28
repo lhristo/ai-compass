@@ -1,0 +1,641 @@
+{
+  "categories": [
+    {
+      "id": "assistants",
+      "name": "Everyday assistants",
+      "subtitle": "Ask, brainstorm & plan",
+      "icon": "✳",
+      "keywords": "chat help plan brainstorm explain assistant questions учене помощ план"
+    },
+    {
+      "id": "research",
+      "name": "Research & learning",
+      "subtitle": "Find answers with evidence",
+      "icon": "⌕",
+      "keywords": "research study learn sources papers pdf summarize summary science проучване наука резюме"
+    },
+    {
+      "id": "writing",
+      "name": "Writing & translation",
+      "subtitle": "Find the right words",
+      "icon": "✎",
+      "keywords": "write writing rewrite grammar email blog translate translation marketing copy текст писане превод"
+    },
+    {
+      "id": "images",
+      "name": "Images & design",
+      "subtitle": "Make something visual",
+      "icon": "◈",
+      "keywords": "image images photo picture art logo illustration graphic design снимка лого дизайн"
+    },
+    {
+      "id": "video",
+      "name": "Video & animation",
+      "subtitle": "Bring an idea to life",
+      "icon": "▷",
+      "keywords": "video videos animation animate avatar film clips видео анимация"
+    },
+    {
+      "id": "audio",
+      "name": "Audio & music",
+      "subtitle": "Give your ideas a voice",
+      "icon": "♫",
+      "keywords": "audio music song voice sound speech podcast noise dub музика глас звук"
+    },
+    {
+      "id": "coding",
+      "name": "Coding & websites",
+      "subtitle": "Build your next project",
+      "icon": "⌘",
+      "keywords": "code coding program debug app website software developer build html сайт програмиране приложение"
+    },
+    {
+      "id": "productivity",
+      "name": "Work & productivity",
+      "subtitle": "Get the busywork done",
+      "icon": "▦",
+      "keywords": "meeting notes automate automation presentation slides workflow organize productivity spreadsheet среща презентация автоматизация"
+    },
+    {
+      "id": "agents",
+      "name": "Agents & automation",
+      "subtitle": "Delegate multi-step work",
+      "icon": "⚙",
+      "keywords": "agent agents automate automation workflow delegate research support chatbot business агент автоматизация"
+    }
+  ],
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "assistants",
+      "url": "https://chatgpt.com/",
+      "description": "A conversational assistant for drafting, explaining, brainstorming and working through problems.",
+      "bestFor": "Turn a rough idea into a clear plan or first draft.",
+      "consider": "Check factual answers and important calculations.",
+      "keywords": "brainstorm explain plan writing code",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "category": "assistants",
+      "url": "https://claude.ai/",
+      "description": "Work through documents, writing and complex questions in a conversational workspace.",
+      "bestFor": "Discuss a document and refine a thoughtful written response.",
+      "consider": "Document limits and available features depend on the plan.",
+      "keywords": "documents pdf analysis writing explain",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "category": "assistants",
+      "url": "https://gemini.google.com/",
+      "description": "Google’s assistant for everyday questions, ideas and supported Google-connected tasks.",
+      "bestFor": "Get help with planning and work across supported Google tools.",
+      "consider": "Connected-app availability depends on your account and region.",
+      "keywords": "google brainstorm plan assistant",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "category": "assistants",
+      "url": "https://copilot.microsoft.com/",
+      "description": "A conversational assistant for exploring ideas, answering questions and creating content.",
+      "bestFor": "Get a starting point for an everyday question or creative task.",
+      "consider": "Consumer Copilot and Microsoft 365 offerings have different features.",
+      "keywords": "microsoft questions brainstorm writing",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "mistral-vibe--le-chat",
+      "name": "Mistral Vibe (Le Chat)",
+      "category": "assistants",
+      "url": "https://chat.mistral.ai/",
+      "description": "Mistral’s conversational assistant for writing, answering questions and exploring information.",
+      "bestFor": "Try an alternative general-purpose assistant for everyday work.",
+      "consider": "Verify generated answers against reliable sources.",
+      "keywords": "mistral assistant questions explain writing",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "category": "research",
+      "url": "https://www.perplexity.ai/",
+      "description": "Search the web with conversational answers and links to supporting sources.",
+      "bestFor": "Get oriented on a topic and follow the original sources.",
+      "consider": "A citation does not guarantee that an answer interprets it correctly.",
+      "keywords": "search web sources research news",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "gemini-notebook--notebooklm",
+      "name": "Gemini Notebook (NotebookLM)",
+      "category": "research",
+      "url": "https://notebook.google/",
+      "description": "Explore, summarize and ask questions about a collection of your own sources.",
+      "bestFor": "Study a set of documents and generate source-grounded summaries.",
+      "consider": "Answers depend on the sources you provide.",
+      "keywords": "study pdf documents summarize summary notes learn",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "category": "research",
+      "url": "https://elicit.com/",
+      "description": "Find research papers and organize evidence for literature reviews.",
+      "bestFor": "Compare findings across academic papers.",
+      "consider": "Check extracted findings against the full paper.",
+      "keywords": "papers academic science literature evidence study",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "category": "research",
+      "url": "https://consensus.app/",
+      "description": "Search scientific literature and explore research-based answers to questions.",
+      "bestFor": "Find what published studies say about a specific question.",
+      "consider": "Not a substitute for expert medical or scientific judgment.",
+      "keywords": "science research papers evidence studies",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "scite",
+      "name": "Scite",
+      "category": "research",
+      "url": "https://scite.ai/",
+      "description": "Explore research and how scientific publications cite one another.",
+      "bestFor": "Investigate the citation context around a research claim.",
+      "consider": "Citation classifications need interpretation, not just counting.",
+      "keywords": "citations papers academic evidence research",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "category": "writing",
+      "url": "https://www.grammarly.com/",
+      "description": "Writing assistance for clarity, grammar, tone and revision.",
+      "bestFor": "Polish an email, document or professional message.",
+      "consider": "Review suggested edits to keep your intended meaning.",
+      "keywords": "grammar email proofread writing tone",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "category": "writing",
+      "url": "https://quillbot.com/",
+      "description": "Writing tools for paraphrasing, checking grammar and summarizing text.",
+      "bestFor": "Rephrase a draft and improve its readability.",
+      "consider": "Paraphrasing does not remove the need to credit sources.",
+      "keywords": "rewrite paraphrase summarize grammar writing",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "category": "writing",
+      "url": "https://www.deepl.com/write",
+      "description": "Refine phrasing, grammar and style with AI writing suggestions.",
+      "bestFor": "Make an existing draft clearer and more natural.",
+      "consider": "Supported writing languages differ from DeepL Translator.",
+      "keywords": "writing grammar rewrite language tone",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "deepl-translator",
+      "name": "DeepL Translator",
+      "category": "writing",
+      "url": "https://www.deepl.com/translator",
+      "description": "Translate text and supported documents between languages.",
+      "bestFor": "Translate a document or understand text in another language.",
+      "consider": "Check technical terms and important translations with a fluent speaker.",
+      "keywords": "translate translation language documents превод",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "category": "writing",
+      "url": "https://www.jasper.ai/",
+      "description": "AI tools for teams creating and managing marketing content.",
+      "bestFor": "Create marketing copy around a consistent brand voice.",
+      "consider": "Best suited to a marketing workflow, not general research.",
+      "keywords": "marketing copy blog brand writing campaign",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "category": "images",
+      "url": "https://www.midjourney.com/",
+      "description": "Generate visual concepts and images from creative direction.",
+      "bestFor": "Explore an artistic direction or concept for a project.",
+      "consider": "Check current commercial-use terms before publishing assets.",
+      "keywords": "art image illustration concept picture",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "category": "images",
+      "url": "https://firefly.adobe.com/",
+      "description": "Adobe’s generative creative workspace for images and other supported media tasks.",
+      "bestFor": "Create and refine visual assets in an Adobe-oriented workflow.",
+      "consider": "Features, credits and licensing vary by model and plan.",
+      "keywords": "adobe image design graphic photo",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "category": "images",
+      "url": "https://ideogram.ai/",
+      "description": "Generate images and explore designs that incorporate lettering.",
+      "bestFor": "Draft a poster or visual concept with text.",
+      "consider": "Always proofread generated lettering.",
+      "keywords": "poster typography text logo image design",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "category": "images",
+      "url": "https://leonardo.ai/",
+      "description": "Generate and refine images for creative projects and visual concepts.",
+      "bestFor": "Explore illustrations, concept art and visual variations.",
+      "consider": "Check image visibility and licensing settings before use.",
+      "keywords": "art illustration image game concept photo",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "category": "images",
+      "url": "https://www.recraft.ai/",
+      "description": "Create and edit visual assets, including vector-style and raster designs.",
+      "bestFor": "Build a consistent set of illustrations or design assets.",
+      "consider": "Inspect exported files and commercial-use terms for your project.",
+      "keywords": "vector logo illustration graphic design image",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "category": "video",
+      "url": "https://runwayml.com/",
+      "description": "Generative video tools for creating and transforming moving images.",
+      "bestFor": "Turn a visual idea into a short video experiment.",
+      "consider": "Expect iteration; generated motion and continuity can vary.",
+      "keywords": "video animation film clip image",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "category": "video",
+      "url": "https://pika.art/",
+      "description": "Create short AI videos and playful visual effects.",
+      "bestFor": "Animate an image or explore a short creative clip.",
+      "consider": "Available effects and generation limits change by plan.",
+      "keywords": "video animate animation effect clip",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "category": "video",
+      "url": "https://www.synthesia.io/",
+      "description": "Create presenter-style videos from scripts using AI avatars and voices.",
+      "bestFor": "Make an explainer or training presentation with a virtual presenter.",
+      "consider": "Use avatars and voices only within the service’s consent rules.",
+      "keywords": "training avatar presenter video script",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "category": "video",
+      "url": "https://www.heygen.com/",
+      "description": "Tools for avatar videos, video translation and localization.",
+      "bestFor": "Adapt a presenter video for another language or audience.",
+      "consider": "Review translated speech and obtain permission for likeness use.",
+      "keywords": "avatar translate localization video presenter",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "category": "video",
+      "url": "https://lumalabs.ai/dream-machine",
+      "description": "Explore AI-generated video and visual motion from creative prompts.",
+      "bestFor": "Prototype a cinematic scene or animate a visual idea.",
+      "consider": "Results may require multiple attempts to match your direction.",
+      "keywords": "video cinematic animate film clip",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "audio",
+      "url": "https://elevenlabs.io/",
+      "description": "Generate speech and work with voice, dubbing and audio tools.",
+      "bestFor": "Create a narrated demo or voiceover from a script.",
+      "consider": "Use only voices you have permission to reproduce.",
+      "keywords": "voice speech narrate voiceover dub audio",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "category": "audio",
+      "url": "https://www.descript.com/",
+      "description": "Edit audio and video through text-based workflows and AI assistance.",
+      "bestFor": "Edit a podcast or spoken recording using its transcript.",
+      "consider": "Review transcription accuracy before making final edits.",
+      "keywords": "podcast recording transcript edit audio video",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "category": "audio",
+      "url": "https://suno.com/",
+      "description": "Generate songs and musical ideas from prompts.",
+      "bestFor": "Sketch a song concept or experiment with a musical style.",
+      "consider": "Music licensing depends on the plan and current terms.",
+      "keywords": "song music soundtrack audio lyrics",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "aiva",
+      "name": "AIVA",
+      "category": "audio",
+      "url": "https://www.aiva.ai/",
+      "description": "An AI music assistant for composing and developing musical pieces.",
+      "bestFor": "Create instrumental ideas for a soundtrack.",
+      "consider": "Check ownership and licensing for the chosen subscription.",
+      "keywords": "instrumental compose music soundtrack audio",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "krisp",
+      "name": "Krisp",
+      "category": "audio",
+      "url": "https://krisp.ai/",
+      "description": "AI-powered noise cancellation and tools for clearer conversations.",
+      "bestFor": "Reduce background noise during calls and recordings.",
+      "consider": "Supported applications and features vary by platform.",
+      "keywords": "noise meeting sound call audio clean",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "coding",
+      "url": "https://cursor.com/",
+      "description": "An AI coding environment for understanding, writing and changing software.",
+      "bestFor": "Work on an existing codebase with contextual coding help.",
+      "consider": "Review changes and run tests before deploying.",
+      "keywords": "code coding debug developer software repository",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "category": "coding",
+      "url": "https://github.com/features/copilot",
+      "description": "AI coding assistance integrated with supported developer workflows.",
+      "bestFor": "Get help writing code and reviewing development tasks.",
+      "consider": "Generated code still needs security and correctness review.",
+      "keywords": "code coding github developer debug",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "category": "coding",
+      "url": "https://replit.com/",
+      "description": "A browser-based environment for building applications with AI assistance.",
+      "bestFor": "Prototype an app without first setting up a local environment.",
+      "consider": "Hosting, usage and deployment costs are separate considerations.",
+      "keywords": "app website code build prototype browser",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "category": "coding",
+      "url": "https://lovable.dev/",
+      "description": "Build web application prototypes by describing what you want.",
+      "bestFor": "Turn a product idea into an interactive web prototype.",
+      "consider": "Validate authentication, data access and security before real use.",
+      "keywords": "website app build prototype no code",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "category": "coding",
+      "url": "https://v0.app/",
+      "description": "Vercel’s AI tool for generating web interfaces and applications.",
+      "bestFor": "Create an interface starting from a written brief.",
+      "consider": "Review generated code and deployment settings.",
+      "keywords": "website interface ui frontend build code",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "category": "productivity",
+      "url": "https://www.notion.com/product/ai",
+      "description": "AI assistance inside Notion for working with workspace information and tasks.",
+      "bestFor": "Find and develop information within a Notion workspace.",
+      "consider": "Connected sources and features depend on workspace permissions.",
+      "keywords": "notes workspace organize documents productivity",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "category": "productivity",
+      "url": "https://gamma.app/",
+      "description": "Create presentations, documents and pages from an outline or prompt.",
+      "bestFor": "Turn an outline into a presentation draft.",
+      "consider": "Check facts, formatting and export options before presenting.",
+      "keywords": "presentation slides deck pitch document",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "category": "productivity",
+      "url": "https://otter.ai/",
+      "description": "Transcription and AI-assisted meeting notes for spoken conversations.",
+      "bestFor": "Turn a meeting into a searchable transcript and summary.",
+      "consider": "Get participants’ consent and check supported languages.",
+      "keywords": "meeting notes transcript summarize recording",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "category": "productivity",
+      "url": "https://fireflies.ai/",
+      "description": "Record, transcribe and summarize supported meeting workflows.",
+      "bestFor": "Keep track of conversations and follow-up items.",
+      "consider": "Use with meeting participants’ permission; review summaries.",
+      "keywords": "meeting notes transcript summarize action items",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "zapier-ai",
+      "name": "Zapier AI",
+      "category": "productivity",
+      "url": "https://zapier.com/ai",
+      "description": "Build AI-assisted automations connecting supported apps and workflows.",
+      "bestFor": "Move information between apps and automate repetitive work.",
+      "consider": "Review connected-account permissions and automation usage limits.",
+      "keywords": "automate automation workflow apps business",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "category": "agents",
+      "url": "https://www.manus.im/",
+      "description": "A general-purpose agent for research and multi-step digital tasks.",
+      "bestFor": "Delegate a research brief or a task with several deliverables.",
+      "consider": "Review sources and outputs before relying on a completed task.",
+      "keywords": "agent research report browser delegate",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "category": "agents",
+      "url": "https://www.genspark.ai/business",
+      "description": "An AI workspace combining research, content creation and task execution.",
+      "bestFor": "Develop a research-backed document or presentation in one workspace.",
+      "consider": "Available tools and usage allowances vary by plan.",
+      "keywords": "agent research presentation slides documents",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "lindy",
+      "name": "Lindy",
+      "category": "agents",
+      "url": "https://www.lindy.ai/",
+      "description": "An AI teammate that works with connected business tools and recurring tasks.",
+      "bestFor": "Prepare reports and handle routine work across your apps.",
+      "consider": "Review account permissions and approvals for external actions.",
+      "keywords": "agent email inbox reports scheduling business",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "relevance-ai",
+      "name": "Relevance AI",
+      "category": "agents",
+      "url": "https://relevanceai.com/",
+      "description": "A platform for configuring specialist AI agents and connected workflows.",
+      "bestFor": "Build an agent for a repeatable sales or operations task.",
+      "consider": "Test instructions and connected tools before unattended use.",
+      "keywords": "agent sales operations workflow builder",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "gumloop",
+      "name": "Gumloop",
+      "category": "agents",
+      "url": "https://www.gumloop.com/",
+      "description": "Build AI agents and workflows that connect business applications.",
+      "bestFor": "Combine information gathering and processing in a reusable workflow.",
+      "consider": "Check integration permissions and per-run usage costs.",
+      "keywords": "agent automation workflow data business",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "category": "agents",
+      "url": "https://n8n.io/",
+      "description": "A workflow automation platform with AI-agent and app-integration capabilities.",
+      "bestFor": "Connect APIs and business tools into a custom AI workflow.",
+      "consider": "Self-hosting requires maintenance; cloud and model costs may apply.",
+      "keywords": "agent automation workflow api self hosted technical",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "make-ai-agents",
+      "name": "Make AI Agents",
+      "category": "agents",
+      "url": "https://www.make.com/ai-agents",
+      "description": "Create agents within Make workflows to coordinate tasks across connected apps.",
+      "bestFor": "Add adaptive decisions to a visual business automation.",
+      "consider": "Test scenarios and limit the actions an agent can perform.",
+      "keywords": "agent automation visual workflow integrations",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "dust",
+      "name": "Dust",
+      "category": "agents",
+      "url": "https://dust.tt/",
+      "description": "Build workplace AI agents connected to team knowledge and tools.",
+      "bestFor": "Give a team an assistant grounded in its internal information.",
+      "consider": "Configure data access carefully and verify generated answers.",
+      "keywords": "agent knowledge team documents internal search",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "category": "agents",
+      "url": "https://www.taskade.com/",
+      "description": "A workspace for AI agents, apps and automated project workflows.",
+      "bestFor": "Organize a project and automate repeatable team tasks.",
+      "consider": "Review workspace sharing and automation settings.",
+      "keywords": "agent project tasks team workflow planning",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "stackai",
+      "name": "StackAI",
+      "category": "agents",
+      "url": "https://www.stackai.com/",
+      "description": "An enterprise platform for building AI agents and document workflows.",
+      "bestFor": "Create an internal document-processing or knowledge assistant.",
+      "consider": "Confirm deployment options and data-handling requirements.",
+      "keywords": "agent enterprise documents knowledge workflow builder",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "voiceflow",
+      "name": "Voiceflow",
+      "category": "agents",
+      "url": "https://www.voiceflow.com/",
+      "description": "A platform for designing and deploying conversational chat and voice agents.",
+      "bestFor": "Build a customer-facing assistant with guided conversations.",
+      "consider": "Plan escalation to a person and review connected data access.",
+      "keywords": "agent chatbot voice customer support conversation",
+      "reviewed": "2026-10-19"
+    },
+    {
+      "id": "botpress",
+      "name": "Botpress",
+      "category": "agents",
+      "url": "https://botpress.com/",
+      "description": "Build AI customer-support agents using knowledge sources and integrations.",
+      "bestFor": "Create a support assistant that answers from your documentation.",
+      "consider": "Test answer quality and provide a human handoff for difficult cases.",
+      "keywords": "agent chatbot customer support knowledge helpdesk",
+      "reviewed": "2026-10-19"
+    }
+  ]
+}

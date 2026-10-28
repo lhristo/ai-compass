@@ -1,11 +1,12 @@
 'use strict';
 // Transparent local task matching, not an external AI inference service.
 const taskRules = [
- ['Meeting notes', /meeting|minutes|transcrib|transcript|recording.*notes|срещ|транскриб/iu, ['otter-ai','fireflies-ai','descript'], 'Turn spoken conversations into transcripts or notes.'],
+ ['Diagrams', /diagram|flowchart|infographic|mind.?map|диаграм|схема/iu, ['napkin-ai'], 'Turn text into an explanatory diagram or visual.'],
+ ['Meeting notes', /meeting|minutes|transcrib|transcript|recording.*notes|срещ|транскриб/iu, ['otter-ai','fireflies-ai','descript','fathom'], 'Turn spoken conversations into transcripts or notes.'],
  ['Translation', /translat|another language|different language|прев[ое]д/iu, ['deepl-translator','heygen'], 'Translate text or adapt spoken video to another language.'],
  ['Email writing', /email|e-mail|пиш.*писм|имейл/iu, ['grammarly','quillbot','chatgpt','claude'], 'Draft or improve the wording of an email.'],
  ['Website building', /website|web site|landing page|web app|сайт/iu, ['lovable','replit','v0'], 'Turn a description into a website or app prototype.'],
- ['Coding help', /debug|coding|code|programming|bug|програми|код/iu, ['cursor','github-copilot','replit'], 'Write, understand or troubleshoot software.'],
+ ['Coding help', /debug|coding|code|programming|bug|програми|код/iu, ['cursor','github-copilot','replit','claude-code','openai-codex','devin','jules'], 'Write, understand or troubleshoot software.'],
  ['Image creation', /image|picture|photo|logo|illustrat|poster|сним|изображ|лого/iu, ['ideogram','recraft','leonardo-ai','midjourney','adobe-firefly'], 'Create visual concepts, illustrations or design assets.'],
  ['Video creation', /video|film|animation|animate|видео|анимац/iu, ['runway','pika','luma-dream-machine','heygen','synthesia'], 'Create or transform video from a creative brief.'],
  ['Music creation', /music|song|soundtrack|compose|музик|песен/iu, ['suno','aiva'], 'Develop a song or instrumental music idea.'],
@@ -13,8 +14,8 @@ const taskRules = [
  ['Research', /research|academic|papers|sources|scientific|проуч|науч/iu, ['perplexity','elicit','consensus','scite'], 'Find information and inspect supporting sources.'],
  ['Document understanding', /pdf|summari[sz]|document|резюм|документ/iu, ['gemini-notebook--notebooklm','claude'], 'Explore documents and develop summaries grounded in your material.'],
  ['Presentations', /presentation|slides|pitch deck|презентац/iu, ['gamma','genspark'], 'Turn an outline or research into a presentation draft.'],
- ['Customer support', /customer|support.*(bot|agent)|chatbot|helpdesk|клиент/iu, ['botpress','voiceflow'], 'Build a conversational assistant for customer questions.'],
- ['Workflow automation', /automat|repetitive|workflow|автомат/iu, ['n8n','make-ai-agents','gumloop','relevance-ai','lindy'], 'Connect apps and automate a repeatable workflow.'],
+ ['Customer support', /customer|support.*(bot|agent)|chatbot|helpdesk|клиент/iu, ['botpress','voiceflow','fin','salesforce-agentforce'], 'Build a conversational assistant for customer questions.'],
+ ['Workflow automation', /automat|repetitive|workflow|автомат/iu, ['n8n','make-ai-agents','gumloop','relevance-ai','lindy','dify','microsoft-copilot-studio'], 'Connect apps and automate a repeatable workflow.'],
  ['Multi-step agents', /agent|delegate|агент/iu, ['manus','lindy','relevance-ai','genspark'], 'Delegate a task spanning several steps or connected tools.'],
  ['Writing improvement', /grammar|rewrite|proofread|essay|blog|грамат|редакт/iu, ['grammarly','quillbot','deepl-write','jasper'], 'Improve a draft or develop written content.']
 ];

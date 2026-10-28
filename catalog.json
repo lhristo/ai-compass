@@ -636,6 +636,116 @@
       "consider": "Test answer quality and provide a human handoff for difficult cases.",
       "keywords": "agent chatbot customer support knowledge helpdesk",
       "reviewed": "2026-10-19"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "category": "coding",
+      "url": "https://claude.com/product/claude-code",
+      "description": "Anthropic’s coding agent for understanding repositories, changing code and running tests.",
+      "bestFor": "Delegate a bug fix or refactor while reviewing the proposed changes.",
+      "consider": "Limit tool permissions, inspect diffs and run independent tests before deployment.",
+      "keywords": "claude code anthropic agent terminal repository refactor debug tests код програмиране",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex",
+      "category": "coding",
+      "url": "https://openai.com/codex/",
+      "description": "OpenAI’s coding agent for software changes, debugging and code review across supported developer workflows.",
+      "bestFor": "Work through a repository change with an agent and review its results.",
+      "consider": "Check repository access, execution permissions and generated code before merging.",
+      "keywords": "openai codex agent code review repository debug tests код програмиране",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "category": "agents",
+      "url": "https://dify.ai/",
+      "description": "A platform for building AI applications, agent workflows and retrieval pipelines with models and tools.",
+      "bestFor": "Build a knowledge-backed assistant or a repeatable AI workflow.",
+      "consider": "Configure model access and data permissions; self-hosted deployments need maintenance.",
+      "keywords": "dify agent builder platform workflow knowledge rag self hosted автоматизация агент",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "napkin-ai",
+      "name": "Napkin AI",
+      "category": "images",
+      "url": "https://www.napkin.ai/",
+      "description": "Turn written content into editable diagrams, flowcharts and other explanatory visuals.",
+      "bestFor": "Illustrate a process or idea for a presentation or document.",
+      "consider": "Check labels, relationships and export options before sharing a visual.",
+      "keywords": "napkin diagram flowchart infographic mind map visual текст диаграма схема",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "category": "productivity",
+      "url": "https://www.fathom.ai/",
+      "description": "An AI meeting notetaker that produces searchable transcripts, summaries and action items.",
+      "bestFor": "Review a meeting and recover its decisions and follow-up tasks.",
+      "consider": "Obtain participants’ consent and check recording, sharing and supported-language settings.",
+      "keywords": "fathom fathom.video meeting notes transcript summary action items среща транскрипция бележки",
+      "reviewed": "2026-10-26"
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "category": "coding",
+      "url": "https://devin.ai/",
+      "description": "A coding agent that works on software tasks and prepares changes for developer review.",
+      "bestFor": "Delegate a bug fix, migration or repository task with a clear acceptance checklist.",
+      "consider": "Review repository permissions, generated changes and tests before merging.",
+      "keywords": "devin coding agent bug fix migration repository tests код програмиране",
+      "reviewed": "2026-10-28"
+    },
+    {
+      "id": "jules",
+      "name": "Jules",
+      "category": "coding",
+      "url": "https://jules.google/",
+      "description": "Google’s asynchronous coding agent for tasks in connected GitHub repositories.",
+      "bestFor": "Delegate bug fixes, documentation updates or tests while you work on something else.",
+      "consider": "Requires repository access; review the proposed plan and changes before accepting.",
+      "keywords": "jules google coding agent github bug tests documentation код тестове",
+      "reviewed": "2026-10-28"
+    },
+    {
+      "id": "microsoft-copilot-studio",
+      "name": "Microsoft Copilot Studio",
+      "category": "agents",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+      "description": "A low-code platform for building agents and workflows connected to business data and systems.",
+      "bestFor": "Create an internal assistant or automate a process using connected business tools.",
+      "consider": "Requires configuration; check licensing, connector permissions and data access.",
+      "keywords": "microsoft copilot studio agent builder workflow enterprise teams business автоматизация агент",
+      "reviewed": "2026-10-28"
+    },
+    {
+      "id": "salesforce-agentforce",
+      "name": "Salesforce Agentforce",
+      "category": "agents",
+      "url": "https://www.salesforce.com/agentforce/",
+      "description": "Salesforce’s platform for configuring agents for customer service and connected business processes.",
+      "bestFor": "Handle customer-service requests using business knowledge and configured actions.",
+      "consider": "Business integration and setup are needed; review action permissions and escalation paths.",
+      "keywords": "salesforce agentforce crm customer service support agent business клиент помощ",
+      "reviewed": "2026-10-28"
+    },
+    {
+      "id": "fin",
+      "name": "Fin",
+      "category": "agents",
+      "url": "https://fin.ai/",
+      "description": "Intercom’s customer-facing AI agent for answering questions and handling configured service workflows.",
+      "bestFor": "Help customers resolve support questions using your company’s knowledge.",
+      "consider": "Test answers and handoffs, and review connected systems and pricing before deployment.",
+      "keywords": "fin intercom customer support service helpdesk chatbot knowledge клиент поддръжка",
+      "reviewed": "2026-10-28"
     }
   ]
 }
