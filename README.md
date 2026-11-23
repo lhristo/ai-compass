@@ -1,6 +1,6 @@
 # AI Hristov
 
-A task-oriented directory of 62 AI products across nine categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
+A task-oriented directory of 78 AI products across nine categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
 
 ## Run
 
@@ -27,7 +27,7 @@ Search uses local English/Bulgarian task rules and weighted keywords, not an AI 
 
 Edit scripts/make_catalog.py and regenerate with `python3 scripts/make_catalog.py`. Keep the review dates accurate and the count labels in index.html in sync when adding tools. `python3 scripts/check_links.py` writes link-checks.json. Some sites block automated HTTP requests; a 403 is not proof of a dead URL. Official web research supplemented those checks on 2026-10-18. Current names for Mistral Vibe and Gemini Notebook were checked against official sources:
 
-- https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe
+- https://help.mistral.ai/en/articles/782992-le-chat-is-now-vibe
 - https://notebook.google/
 
 ## Browser verification
@@ -38,10 +38,20 @@ With the local server running and Playwright installed:
 PLAYWRIGHT_PATH=/path/to/node_modules/playwright node tests/browser.cjs
 ```
 
-Checks all 62 destinations for unique HTTPS URLs (not external authentication flows), nine categories, task search, saved persistence, compare limits, keyboard dialogs, mobile overflow and fetch failure/retry. Automated URL checks do not certify every provider's availability or product claims.
+Checks all 78 destinations for unique HTTPS URLs (not external authentication flows), nine categories, task search, saved persistence, compare limits, keyboard dialogs, mobile overflow and fetch failure/retry. Automated URL checks do not certify every provider's availability or product claims.
 
 Added 12 agent products/platforms on 2026-10-19, based on their official websites. Agent builders require setup and permissions; inclusion does not imply unattended operation is appropriate.
 
 Added five products on 2026-10-26 (new to this directory, not new-launch claims). See [the weekly source and verification log](updates/2026-10-26.md). Run `node tests/catalog.cjs` for schema, counts, identity and original-entry preservation checks.
 
 Added five more agents on 2026-10-28 and published the previously pending five additions. See [verification log](updates/2026-10-28.md).
+
+Prepared two products in pre-existing, unpublished edits dated 2026-11-02: Aider (coding tool) and Flowise (agent-building platform). Both are new to this directory, not claimed new launches. See [the recovery and verification log](updates/2026-11-16.md). All 62 pre-update entries remain unchanged.
+
+Added LM Studio Bionic (desktop agent) and Ollama (model runtime/tool) on 2026-11-09, new to this directory rather than claimed new launches. All 64 existing working-tree entries and IDs remain unchanged. See [official sources and verification](updates/2026-11-16.md).
+
+Added NaturalReader on 2026-11-16, new to this directory (not a new-launch claim). All 66 pre-existing working-tree entries are unchanged. See [sources and verification](updates/2026-11-16.md).
+
+Prepared ResearchRabbit on 2026-11-23, new to this directory (not newly launched). All 67 inherited entries and IDs remain unchanged. Publication is blocked by Git authentication; see [sources, tests and publication status](updates/2026-11-23.md).
+
+Prepared 10 further agent products and platforms on 2026-11-23. See [source log and publication status](updates/2026-11-23-manual.md). All 68 inherited listings are preserved. Publishing requires GitHub re-authentication.

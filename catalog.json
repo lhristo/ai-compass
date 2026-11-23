@@ -746,6 +746,182 @@
       "consider": "Test answers and handoffs, and review connected systems and pricing before deployment.",
       "keywords": "fin intercom customer support service helpdesk chatbot knowledge клиент поддръжка",
       "reviewed": "2026-10-28"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "category": "coding",
+      "url": "https://aider.chat/",
+      "description": "A terminal-based AI pair-programming tool that edits an existing codebase with cloud or local language models.",
+      "bestFor": "Make a focused code change with repository context, Git diffs and test feedback.",
+      "consider": "Configure model access, review automatic commits and run independent tests before merging.",
+      "keywords": "aider aider chat coding terminal pair programming repository git tests local models код програмиране",
+      "reviewed": "2026-11-02"
+    },
+    {
+      "id": "flowise",
+      "name": "Flowise",
+      "category": "agents",
+      "url": "https://flowiseai.com/",
+      "description": "A visual development platform for building AI agents, chat assistants and knowledge-retrieval workflows.",
+      "bestFor": "Build a tool-connected assistant or multi-agent workflow with human review steps.",
+      "consider": "Requires model and tool configuration; restrict data access and test workflows before deployment.",
+      "keywords": "flowise flowiseai agent builder platform visual workflow rag knowledge chatbot автоматизация агент",
+      "reviewed": "2026-11-02"
+    },
+    {
+      "id": "lm-studio-bionic",
+      "name": "LM Studio Bionic",
+      "category": "agents",
+      "url": "https://www.lmstudio.ai/docs/bionic",
+      "description": "A desktop AI agent for coding, research and working with documents and files using local, cloud or remote open models.",
+      "bestFor": "Work through a document or coding task in a project with a model running where you choose.",
+      "consider": "Bionic is a separate app from LM Studio; check device support, model requirements and permissions before granting file or tool access.",
+      "keywords": "lm studio bionic lmstudio desktop agent documents files coding local models локални модели документи агент",
+      "reviewed": "2026-11-09"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "category": "coding",
+      "url": "https://ollama.com/",
+      "description": "A tool for running open models locally or connecting applications and coding agents to supported cloud models.",
+      "bestFor": "Experiment with a local model or connect an application through a model API.",
+      "consider": "Not a ready-made autonomous agent; check hardware capacity, model licenses and whether each model runs locally or in the cloud.",
+      "keywords": "ollama local models runtime api developer open models локални модели програмиране",
+      "reviewed": "2026-11-09"
+    },
+    {
+      "id": "naturalreader",
+      "name": "NaturalReader",
+      "category": "audio",
+      "url": "https://www.naturalreaders.com/",
+      "description": "An AI text-to-speech reader that turns text, documents and webpages into spoken audio.",
+      "bestFor": "Listen to documents and reading material instead of reading on screen.",
+      "consider": "Personal listening and commercial voiceovers have different usage rights; check licensing and document privacy before uploading.",
+      "keywords": "naturalreader natural reader naturalreaders text to speech read aloud listening documents accessibility четене на глас слушане документи",
+      "reviewed": "2026-11-16"
+    },
+    {
+      "id": "researchrabbit",
+      "name": "ResearchRabbit",
+      "category": "research",
+      "url": "https://www.researchrabbit.ai/",
+      "description": "An AI-assisted literature discovery tool that recommends related papers and visualizes connections between research.",
+      "bestFor": "Start with a seed paper and explore related publications and authors for a literature review.",
+      "consider": "Recommendations are not an exhaustive systematic search; read original papers and verify relevance and citation context.",
+      "keywords": "researchrabbit research rabbit literature review seed papers citation graph related publications academic research карта научни публикации литературен обзор",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "category": "agents",
+      "url": "https://crewai.com/",
+      "description": "A platform and framework for building coordinated agents and business workflows.",
+      "bestFor": "Build a multi-agent process with distinct responsibilities and review steps.",
+      "consider": "Requires workflow configuration and model access; review connected tools and operating costs.",
+      "keywords": "crewai multi agent orchestration workflow platform автоматизация агент",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "category": "agents",
+      "url": "https://www.langchain.com/langgraph",
+      "description": "A developer framework and runtime for stateful, multi-step agent workflows.",
+      "bestFor": "Build an agent with controlled execution and human review checkpoints.",
+      "consider": "Not a ready-to-use assistant; requires programming, deployment and model configuration.",
+      "keywords": "langgraph framework orchestration state workflow developer агент",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "bardeen",
+      "name": "Bardeen",
+      "category": "agents",
+      "url": "https://www.bardeen.ai/",
+      "description": "An AI automation platform for web research, lead discovery and contact-data workflows.",
+      "bestFor": "Collect and organize relevant business information into a spreadsheet.",
+      "consider": "Check website permissions, data privacy and enrichment accuracy before using collected records.",
+      "keywords": "bardeen agent web research leads sales spreadsheet automation продажби",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "category": "agents",
+      "url": "https://www.copy.ai/",
+      "description": "An AI platform for configuring sales and marketing agents and workflows.",
+      "bestFor": "Prepare content and process business research through repeatable workflows.",
+      "consider": "Requires configuration; verify generated claims and review connected customer-data access.",
+      "keywords": "copy.ai copy ai marketing sales workflow agent content маркетинг",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra",
+      "category": "agents",
+      "url": "https://sierra.ai/",
+      "description": "A conversational AI platform for building customer-facing agents across support channels.",
+      "bestFor": "Configure a customer-service agent that uses business knowledge and approved actions.",
+      "consider": "Enterprise setup is required; test actions and escalation to human support.",
+      "keywords": "sierra customer service conversational agent support клиент помощ",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "decagon",
+      "name": "Decagon",
+      "category": "agents",
+      "url": "https://decagon.ai/",
+      "description": "A platform for building and managing AI agents for customer-service conversations.",
+      "bestFor": "Handle common customer requests through configured service workflows.",
+      "consider": "Validate integrations, customer-data access and human handoffs before deployment.",
+      "keywords": "decagon support customer concierge agent enterprise клиент",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "category": "agents",
+      "url": "https://browser-use.com/",
+      "description": "Browser-agent tooling and hosted browser infrastructure for automating web tasks.",
+      "bestFor": "Build a repeatable browser workflow with structured results.",
+      "consider": "Requires setup; restrict account access and review actions before submissions or purchases.",
+      "keywords": "browser use browser-use web automation agent developer браузър автоматизация",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "glean-agents",
+      "name": "Glean Agents",
+      "category": "agents",
+      "url": "https://www.glean.com/ai-agents",
+      "description": "An enterprise platform for building and managing agents grounded in company information.",
+      "bestFor": "Create internal agents that work with connected knowledge and business systems.",
+      "consider": "Requires enterprise integrations; verify source permissions and action scopes.",
+      "keywords": "glean agents enterprise knowledge company search workflow фирмени знания",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "category": "coding",
+      "url": "https://cline.bot/",
+      "description": "An open-source coding agent for understanding repositories, editing files and running commands.",
+      "bestFor": "Plan and implement a code change with reviewable diffs and tests.",
+      "consider": "Configure model access, limit command permissions and inspect changes before merging.",
+      "keywords": "cline code coding agent terminal editor tests refactor програмиране",
+      "reviewed": "2026-11-23"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "category": "coding",
+      "url": "https://www.openhands.dev/",
+      "description": "An open platform for coding agents and automated software-development workflows.",
+      "bestFor": "Delegate repository changes or configure recurring code-review workflows.",
+      "consider": "Requires repository and execution setup; review generated code and model costs.",
+      "keywords": "openhands coding agent repository development automation tests програмиране",
+      "reviewed": "2026-11-23"
     }
   ]
 }
