@@ -1,6 +1,6 @@
 # AI Hristov
 
-A task-oriented directory of 78 AI products across nine categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
+A task-oriented directory of 98 AI products across nine categories. Static HTML, CSS and JavaScript: no API key, build step, tracking scripts or paid backend.
 
 ## Run
 
@@ -38,7 +38,7 @@ With the local server running and Playwright installed:
 PLAYWRIGHT_PATH=/path/to/node_modules/playwright node tests/browser.cjs
 ```
 
-Checks all 78 destinations for unique HTTPS URLs (not external authentication flows), nine categories, task search, saved persistence, compare limits, keyboard dialogs, mobile overflow and fetch failure/retry. Automated URL checks do not certify every provider's availability or product claims.
+Checks all 98 destinations for unique HTTPS URLs (not external authentication flows), nine categories, task search, saved persistence, compare limits, keyboard dialogs, mobile overflow and fetch failure/retry. Automated URL checks do not certify every provider's availability or product claims.
 
 Added 12 agent products/platforms on 2026-10-19, based on their official websites. Agent builders require setup and permissions; inclusion does not imply unattended operation is appropriate.
 
@@ -54,4 +54,6 @@ Added NaturalReader on 2026-11-16, new to this directory (not a new-launch claim
 
 Prepared ResearchRabbit on 2026-11-23, new to this directory (not newly launched). All 67 inherited entries and IDs remain unchanged. Publication is blocked by Git authentication; see [sources, tests and publication status](updates/2026-11-23.md).
 
-Prepared 10 further agent products and platforms on 2026-11-23. See [source log and publication status](updates/2026-11-23-manual.md). All 68 inherited listings are preserved. Publishing requires GitHub re-authentication.
+Prepared 10 further agent products and platforms on 2026-11-23. See [source log and publication status](updates/2026-11-23-manual.md). All 68 inherited listings are preserved. The batch was subsequently published after GitHub authentication was restored.
+
+Added 20 products on 2026-11-24, bringing the catalog to 98 listings. These are new directory entries, not claims of newly launched products. All 78 prior entries remain unchanged. See [official sources and verification](updates/2026-11-24.md).

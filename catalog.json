@@ -922,6 +922,226 @@
       "consider": "Requires repository and execution setup; review generated code and model costs.",
       "keywords": "openhands coding agent repository development automation tests програмиране",
       "reviewed": "2026-11-23"
+    },
+    {
+      "id": "kagi-assistant",
+      "name": "Kagi Assistant",
+      "category": "assistants",
+      "url": "https://kagi.com/assistant",
+      "description": "A conversational workspace with selectable AI models, optional web access and custom assistants.",
+      "bestFor": "Explore a question or work through a document with a model of your choice.",
+      "consider": "Model access depends on your plan; verify answers and manage conversation retention settings.",
+      "keywords": "kagi assistant chat models web questions documents помощник",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "augment-code",
+      "name": "Augment Code",
+      "category": "coding",
+      "url": "https://www.augmentcode.com/",
+      "description": "Agentic development tools for repository changes, code review and repeatable software workflows.",
+      "bestFor": "Delegate a code change or review with codebase context and human checkpoints.",
+      "consider": "Requires repository and execution access; review changes and independent test results.",
+      "keywords": "augment code cosmos coding agent review tests repository software програмиране",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "category": "coding",
+      "url": "https://bolt.new/",
+      "description": "An AI builder for creating websites and application prototypes from conversational instructions.",
+      "bestFor": "Turn a product brief into a working web prototype and iterate on it.",
+      "consider": "Check generated authentication, data access and deployment costs before production use.",
+      "keywords": "bolt bolt.new app website prototype builder frontend code сайт приложение",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "category": "research",
+      "url": "https://scispace.com/",
+      "description": "An AI research workspace for paper discovery, literature reviews and questions about PDFs.",
+      "bestFor": "Explore scientific papers and extract a starting outline for a literature review.",
+      "consider": "Verify claims and citations in the original papers; generated reviews may omit relevant studies.",
+      "keywords": "scispace scientific papers research pdf literature review академични публикации",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "scholarcy",
+      "name": "Scholarcy",
+      "category": "research",
+      "url": "https://www.scholarcy.com/",
+      "description": "Summarize academic documents into structured flashcards and organize a research library.",
+      "bestFor": "Break a long paper into key findings and notes for closer reading.",
+      "consider": "Summaries can miss nuance; consult the source and check document-upload permissions.",
+      "keywords": "scholarcy flashcards research paper summarize reading study резюме учене",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "wordtune",
+      "name": "Wordtune",
+      "category": "writing",
+      "url": "https://www.wordtune.com/",
+      "description": "AI writing assistance for rewriting sentences, adjusting tone and proofreading drafts.",
+      "bestFor": "Refine wording while comparing alternative ways to express an idea.",
+      "consider": "Review suggestions for meaning and check language support before relying on them.",
+      "keywords": "wordtune rewrite paraphrase grammar tone writing редакция текст",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "sudowrite",
+      "name": "Sudowrite",
+      "category": "writing",
+      "url": "https://sudowrite.com/",
+      "description": "An AI writing partner focused on fiction development, drafting and story feedback.",
+      "bestFor": "Explore a scene or character and revise a story draft.",
+      "consider": "Check continuity and originality; retain editorial control over the final manuscript.",
+      "keywords": "sudowrite fiction story novel characters creative writing роман история",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "photoroom",
+      "name": "Photoroom",
+      "category": "images",
+      "url": "https://www.photoroom.com/",
+      "description": "AI image-editing tools for product photos, background removal and generated product scenes.",
+      "bestFor": "Prepare consistent product images for an online shop.",
+      "consider": "Check that edits accurately represent the product and inspect edges before publishing.",
+      "keywords": "photoroom product photo background remove ecommerce image edit продукт снимка",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "category": "images",
+      "url": "https://www.krea.ai/",
+      "description": "A creative AI workspace for generating, editing and enhancing images and other visual media.",
+      "bestFor": "Develop visual concepts and refine an image with generative tools.",
+      "consider": "Capabilities and credits vary by model; verify asset rights and exported details.",
+      "keywords": "krea creative image upscale enhance visual design генерация изображение",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "canva-ai",
+      "name": "Canva AI",
+      "category": "images",
+      "url": "https://www.canva.com/canva-ai/",
+      "description": "AI-assisted creation and editing within Canva for designs, images, text and presentations.",
+      "bestFor": "Develop a visual draft and adjust it in an editable design workspace.",
+      "consider": "Check asset licensing, generated text and plan-specific feature access before sharing.",
+      "keywords": "canva ai magic studio design image layout poster presentation дизайн плакат",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "veed",
+      "name": "VEED",
+      "category": "video",
+      "url": "https://www.veed.io/",
+      "description": "A browser-based video creation and editing platform with AI tools and subtitle workflows.",
+      "bestFor": "Create a short edited video with captions and supporting audio.",
+      "consider": "Proofread subtitles and check export limits and media permissions.",
+      "keywords": "veed video edit subtitles captions clip browser видео субтитри",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "opusclip",
+      "name": "OpusClip",
+      "category": "video",
+      "url": "https://www.opus.pro/",
+      "description": "AI-assisted video clipping, captioning and reframing for repurposing longer footage.",
+      "bestFor": "Turn an interview or webinar into short clips for review.",
+      "consider": "Review edits for context and accuracy; automated clip scores do not guarantee audience results.",
+      "keywords": "opusclip opus clip video repurpose short captions social интервю клип",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "invideo",
+      "name": "Invideo",
+      "category": "video",
+      "url": "https://invideo.io/",
+      "description": "An AI-assisted video editor for turning instructions and source footage into editable cuts.",
+      "bestFor": "Prepare a video draft and refine its edit through natural-language direction.",
+      "consider": "Check media rights, narration and final cuts; usage and export options vary by plan.",
+      "keywords": "invideo video editor agent footage edit script видео монтаж",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "speechify",
+      "name": "Speechify",
+      "category": "audio",
+      "url": "https://speechify.com/",
+      "description": "AI text-to-speech and voice tools for listening to documents and supported digital content.",
+      "bestFor": "Listen to PDFs or written material while reviewing it.",
+      "consider": "Listening tools and voice-production products have different features and usage rights.",
+      "keywords": "speechify read aloud text speech pdf listening voice четене слушане",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast",
+      "category": "audio",
+      "url": "https://podcast.adobe.com/",
+      "description": "Web-based audio tools including AI speech enhancement to reduce background noise and echo.",
+      "bestFor": "Clean up a spoken recording for a podcast or voiceover.",
+      "consider": "Listen for artifacts and keep the original recording; enhancement cannot restore every damaged signal.",
+      "keywords": "adobe podcast enhance speech noise echo recording audio clean звук шум",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "soundraw",
+      "name": "SOUNDRAW",
+      "category": "audio",
+      "url": "https://soundraw.io/",
+      "description": "Generate and customize music tracks by adjusting musical style, instruments, energy and length.",
+      "bestFor": "Develop background music fitted to a video or creative project.",
+      "consider": "Download, commercial use and distribution rights depend on the selected license and plan.",
+      "keywords": "soundraw music soundtrack instrumental beat compose музика саундтрак",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "category": "productivity",
+      "url": "https://www.granola.ai/",
+      "description": "An AI notepad that uses meeting audio and your notes to prepare summaries and action items.",
+      "bestFor": "Turn rough meeting notes into a structured record of decisions and follow-ups.",
+      "consider": "Obtain participant consent and review transcription, sharing and retention settings.",
+      "keywords": "granola meeting notes actions summary transcription срещи бележки",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "category": "productivity",
+      "url": "https://www.beautiful.ai/",
+      "description": "AI presentation creation with editable slide layouts and tools for consistent visual styling.",
+      "bestFor": "Turn an outline into a polished presentation draft.",
+      "consider": "Validate claims and charts and check export requirements before presenting.",
+      "keywords": "beautiful.ai beautiful ai slides deck presentation pitch презентация слайдове",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "reclaim",
+      "name": "Reclaim",
+      "category": "productivity",
+      "url": "https://reclaim.ai/",
+      "description": "AI scheduling tools that arrange tasks, focus time, recurring habits and meetings in connected calendars.",
+      "bestFor": "Reserve time for important work around a changing meeting schedule.",
+      "consider": "Review calendar permissions, scheduling rules and changes affecting other participants.",
+      "keywords": "reclaim calendar scheduling tasks focus time habits meetings календар график",
+      "reviewed": "2026-11-24"
+    },
+    {
+      "id": "retell-ai",
+      "name": "Retell AI",
+      "category": "agents",
+      "url": "https://www.retellai.com/",
+      "description": "A platform for building and managing voice agents with business knowledge, actions and call transfers.",
+      "bestFor": "Configure an appointment or customer-service voice workflow with human handoffs.",
+      "consider": "Requires setup; review call consent, recording rules, integrations and telephony costs.",
+      "keywords": "retell ai voice agent phone appointment support calls гласов агент разговор",
+      "reviewed": "2026-11-24"
     }
   ]
 }
